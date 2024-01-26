@@ -17,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD']=='POST'){
 }
 echo $_SESSION['consulta'];
 ?>
-
+<p>texto nuevo</p>
 <p>Introduce tu consulta</p>
 <form method="post" action="<?php $_SERVER['PHP_SELF']?>">
     <input type="text" id="consulta" name="consulta">
